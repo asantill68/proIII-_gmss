@@ -6,6 +6,7 @@
 // =============================================================
 var express = require("express");
 var mongoose = require("mongoose");
+var path = require("path");
 
 // Sets up the Express App
 // =============================================================
@@ -36,8 +37,9 @@ mongoose.connect(db, function(error){
 
 // Routes
 // =============================================================
+require("./routes/api-html.js")(app);
 //require("./routes/api-routes.js")(app);
-//require("./routes/api-html.js")(app);
+
 
 // Starts the server to begin listening
 // =============================================================
