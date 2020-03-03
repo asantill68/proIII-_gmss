@@ -1,3 +1,9 @@
 body {
-    background-image: url("views\assets\images\house01a.png");
+    background-image: url("../images/house02.png");
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
