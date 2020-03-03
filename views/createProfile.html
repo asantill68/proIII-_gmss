@@ -27,11 +27,11 @@
   <body>
         <nav>
             <div class="nav-wrapper green darken-3">
-                <a href="#" class="brand-logo yellow-text">SUMSPACE</a>
+                <a href="/" class="brand-logo yellow-text">SUMSPACE</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="/" class="yellow-text">Home</a></li>
-                    <li><a href="#" class="yellow-text">Matches</a></li>
-                    <li><a href="#" class="yellow-text">Profile</a></li>
+                    <li><a class="yellow-text disabled">Matches</a></li>
+                    <li><a class="yellow-text disabled">Profile</a></li>
                 </ul>
             </div>
         </nav>
@@ -80,11 +80,26 @@
                           <label for="email" class="yellow-text">Email</label>              
                         </div>
                       </div>
+
+                      <div class="row">
+                          <div class="col s8 offset-s3 yellow-text">
+                            <h5 id="q1">What role are you playing?
+                                <label class="yellow-text">
+                                  <input name="q1" type="radio" checked />
+                                  <span>Searcher</span>
+                                </label>
+                                <label class="yellow-text">
+                                    <input name="q1" type="radio" checked />
+                                    <span>Provider</span>
+                                </label>
+                              </h5>  
+                        </div>
+                      </div>
                     </form>
                   </div>
 
                 <div class="center">
-                    <a class="btn-large pulse black yellow-text"><i class="material-icons left">person_add</i>Submit Profile</a>
+                    <a id="submit" href="/Questionaire" class="btn-large pulse black yellow-text"><i class="material-icons left">person_add</i>Submit Profile</a>
                     <br><br>
                 </div>
             </div>

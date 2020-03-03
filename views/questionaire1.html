@@ -22,22 +22,22 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>GMSS-Questionaire</title>
+    <title>GMSS-SearchQuestionaire</title>
   </head>
   <body>
         <nav>
             <div class="nav-wrapper green darken-3">
-                <a href="#" class="brand-logo yellow-text">SUMSPACE</a>
+                <a href="/" class="brand-logo yellow-text">SUMSPACE</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="/" class="yellow-text">Home</a></li>
-                    <li><a href="#" class="yellow-text">Matches</a></li>
-                    <li><a href="#" class="yellow-text">Profile</a></li>
+                    <li><a class="yellow-text disabled">Matches</a></li>
+                    <li><a href="/CreateProfile" class="yellow-text">Profile</a></li>
                 </ul>
             </div>
         </nav>
         <div class="row">
             <div class="col s12 green darken-4 center yellow-text">
-                <h1><i class="medium material-icons">home</i> GIVE ME SUMSPACE QUESTIONAIRE <i class="medium material-icons">location_city</i></h1>
+                <h1><i class="medium material-icons">home</i> SEARCHER QUESTIONAIRE <i class="medium material-icons">location_city</i></h1>
                 <h5>Answer a few questions and leave the matching to us.</h5>
                 <br>
             </div>
@@ -46,24 +46,12 @@
     <div class="container">
         <div class="row">
             <div class="col s12 green darken-4 yellow-text">
-                <h3 class="center"><i class="small material-icons">person</i> Questionaire <i class="small material-icons">create</i></h3>
+                <h3 class="center"><i class="small material-icons">person</i> Do You.... <i class="small material-icons">create</i></h3>
             </div>
             <div class="col s12 green darken-4">
                 <div class="row">
                     <div class="col s6 yellow-text">
-                        <p id="q1">1.  What role are you playing?
-                            <label class="yellow-text">
-                              <input name="q1" type="radio" checked />
-                              <span>Searching</span>
-                            </label>
-                            <label class="yellow-text">
-                                <input name="q1" type="radio" checked />
-                                <span>Providing</span>
-                            </label>
-                        </p>
-                    </div>
-                    <div class="col s6 yellow-text">
-                        <p id="q1">2.  Pets?
+                        <h5 id="q1">....have a pet?
                             <label class="yellow-text">
                               <input name="q1" type="radio" checked />
                               <span>Yes</span>
@@ -72,11 +60,10 @@
                                 <input name="q1" type="radio" checked />
                                 <span>No</span>
                             </label>
-                        </p>
+                        </h5>
                     </div>
-
                     <div class="col s6 yellow-text">
-                        <p id="q1">3.  Smoking?
+                        <h5 id="q1">...smoke?
                             <label class="yellow-text">
                               <input name="q1" type="radio" checked />
                               <span>Yes</span>
@@ -85,23 +72,11 @@
                                 <input name="q1" type="radio" checked />
                                 <span>No</span>
                             </label>
-                        </p>
-                    </div>
-                    <div class="col s6 yellow-text">
-                        <p id="q1">4.  Parking space?
-                            <label class="yellow-text">
-                              <input name="q1" type="radio" checked />
-                              <span>Yes</span>
-                            </label>
-                            <label class="yellow-text">
-                                <input name="q1" type="radio" checked />
-                                <span>No</span>
-                            </label>
-                        </p>
+                        </h5>
                     </div>
 
                     <div class="col s6 yellow-text">
-                        <p id="q1">5.  Furnished?
+                        <h5 id="q1">...ride the bus?
                             <label class="yellow-text">
                               <input name="q1" type="radio" checked />
                               <span>Yes</span>
@@ -110,10 +85,10 @@
                                 <input name="q1" type="radio" checked />
                                 <span>No</span>
                             </label>
-                        </p>
+                        </h5>
                     </div>
                     <div class="col s6 yellow-text">
-                        <p id="q1">6.  Backyard?
+                        <h5 id="q1">...need a parking spot?
                             <label class="yellow-text">
                               <input name="q1" type="radio" checked />
                               <span>Yes</span>
@@ -122,11 +97,11 @@
                                 <input name="q1" type="radio" checked />
                                 <span>No</span>
                             </label>
-                        </p>
+                        </h5>
                     </div>
 
                     <div class="col s6 yellow-text">
-                        <p id="q1">7.  Lease?
+                        <h5 id="q1">...want a backyard?
                             <label class="yellow-text">
                               <input name="q1" type="radio" checked />
                               <span>Yes</span>
@@ -135,10 +110,10 @@
                                 <input name="q1" type="radio" checked />
                                 <span>No</span>
                             </label>
-                        </p>
+                        </h5>
                     </div>
                     <div class="col s6 yellow-text">
-                        <p id="q1">8.  Deposit?
+                        <h5 id="q1">...want furnished SPACE?
                             <label class="yellow-text">
                               <input name="q1" type="radio" checked />
                               <span>Yes</span>
@@ -147,7 +122,32 @@
                                 <input name="q1" type="radio" checked />
                                 <span>No</span>
                             </label>
-                        </p>
+                        </h5>
+                    </div>
+
+                    <div class="col s6 yellow-text">
+                        <h5 id="q1">...have a security deposit?
+                            <label class="yellow-text">
+                              <input name="q1" type="radio" checked />
+                              <span>Yes</span>
+                            </label>
+                            <label class="yellow-text">
+                                <input name="q1" type="radio" checked />
+                                <span>No</span>
+                            </label>
+                        </h5>
+                    </div>
+                    <div class="col s6 yellow-text">
+                        <h5 id="q1">...want a lease?
+                            <label class="yellow-text">
+                              <input name="q1" type="radio" checked />
+                              <span>Yes</span>
+                            </label>
+                            <label class="yellow-text">
+                                <input name="q1" type="radio" checked />
+                                <span>No</span>
+                            </label>
+                        </h5>
                     </div>
 
 

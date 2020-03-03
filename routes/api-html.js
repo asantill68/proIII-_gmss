@@ -8,8 +8,20 @@ module.exports = function(app) {
     // });
 
     //  Send Profile at the /profile
-    app.get("/profile", function(req, res) {
-        res.sendFile(path.join(__dirname + "/views/profile.html"))
+    app.get("/CreateProfile", function(req, res) {
+        res.sendFile(path.join(__dirname + "/../views/createProfile.html"))
+    });
+    //  Send Profile at the /profile
+    app.get("/Questionaire1", function(req, res) {
+        res.sendFile(path.join(__dirname + "/../views/questionaire1.html"))
+    });
+    //  Send Profile at the /profile
+    app.get("/Questionaire1", function(req, res) {
+        res.sendFile(path.join(__dirname + "/../views/questionaire2.html"))
+    });
+    //  Send Profile at the /profile
+    app.get("/*", function(req, res) {
+        res.sendFile(path.join(__dirname + "/../views/index.html"))
     });
 };
 
