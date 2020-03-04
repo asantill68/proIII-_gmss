@@ -16,8 +16,12 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname + "/../views/questionaire1.html"))
     });
     //  Send Profile at the /profile
-    app.get("/Questionaire1", function(req, res) {
+    app.get("/Questionaire2", function(req, res) {
         res.sendFile(path.join(__dirname + "/../views/questionaire2.html"))
+    });
+    //  Send Profile at the /profile
+    app.get("/FAQ", function(req, res) {
+        res.sendFile(path.join(__dirname + "/../views/faq.html"))
     });
     //  Send Profile at the /profile
     app.get("/*", function(req, res) {
